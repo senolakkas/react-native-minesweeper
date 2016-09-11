@@ -8,7 +8,7 @@ import styles from './../styles'
 
 
 export default class App extends Component {
-  render() {
+  renderBoard() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
@@ -23,5 +23,9 @@ export default class App extends Component {
         </Text>
       </View>
     );
+  }  
+  render() {
+    return this.renderBoard();
   }
+  
 }
