@@ -7,9 +7,10 @@ import {
 import styles from './styles'
 
 
-export default class Board extends Component {   
-    renderBoard() {
-    return (
+export default class Board extends Component {
+  
+  render() {
+    return(
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
@@ -22,12 +23,7 @@ export default class Board extends Component {
           Cmd+D or shake for dev menu
         </Text>
       </View>
-    );
-  } 
-  render() {
-    if (true) {
-      return this.renderBoard();
-    } 
+    )
   }
-  
+
 }
