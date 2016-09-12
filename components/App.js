@@ -11,8 +11,9 @@ import styles from './styles'
 
 
 export default class App extends Component {
-  getInitialState() {
-		return {
+   constructor(props) {
+    super(props);
+    this.state = {		
 			height: 10,
 			width: 10,
 			numMines: 5,
@@ -48,8 +49,10 @@ export default class App extends Component {
     );
   }
   render() {
-    if (true) {
+    if (!this.state.gameStarted) {
       return this.renderNewGameControls();
+    } else {
+      return this.renderBoard();
     }
   }
 
