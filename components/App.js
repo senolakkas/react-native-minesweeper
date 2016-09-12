@@ -22,14 +22,11 @@ export default class App extends Component {
         <Text>
           Width:
         </Text>
-        <TextInput style={{width: 100, height:40}} />      
-
-
+        <TextInput style={{width: 100, height:40}} /> 
         <Text>
           Height:
         </Text>
         <TextInput style={{width: 100, height:40}} />
-
 
         <Text>Num Mines:</Text>
         <TextInput style={{width: 100, height:40}} />
