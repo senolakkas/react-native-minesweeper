@@ -13,7 +13,7 @@ import styles from './styles'
 export default class App extends Component {
    constructor(props) {
     super(props);
-    this.state = {		
+    this.state = {
 			height: 10,
 			width: 10,
 			numMines: 5,
