@@ -1,4 +1,5 @@
 .vscode
+.gitignore
 # OSX
 #
 .DS_Store
