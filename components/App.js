@@ -25,7 +25,9 @@ export default class App extends Component {
     );
   }  
   render() {
-    return this.renderBoard();
+    if (true) {
+      return this.renderBoard();
+    }    
   }
   
 }
