@@ -20,11 +20,19 @@ export default class App extends Component {
 			gameStarted: false
 		}
 	}
-  renderBoard() {
-    return (
-      <Board />
+
+  startNewGame() {
+    window.alert('Example Pressed');
+    //window.alert(this.state.width);
+
+    /*Actions.startGame(
+    	this.state.width,
+    	this.state.height,
+    	this.state.numMines
     );
+    */
   }
+  
   renderNewGameControls() {
     return (
       <View style={styles.container}>
@@ -46,6 +54,12 @@ export default class App extends Component {
         	<Text>Start</Text>
         </TouchableHighlight>
       </View>
+    );
+  }
+
+  renderBoard() {
+    return (
+      <Board />
     );
   }
   render() {
