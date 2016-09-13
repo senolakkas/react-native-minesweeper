@@ -23,6 +23,7 @@ export default class App extends Component {
 
   startNewGame() {
     window.alert('Example Pressed');
+    window.alert('Example Pressed');
     //window.alert(this.state.width);
 
     /*Actions.startGame(
