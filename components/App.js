@@ -23,7 +23,8 @@ export default class App extends Component {
 
   startNewGame() {
     window.alert('Example Pressed');    
-    //window.alert(this.state.width);
+    //window.alert(this.ref.width.defaultValue);
+    //this.key.width.toString()
 
     /*Actions.startGame(
     	this.state.width,
@@ -32,6 +33,11 @@ export default class App extends Component {
     );
     */
   }
+
+  handleChangeWidth(text) {
+    window.alert(text); 
+    // this.setState({ width: text }) ?? 
+  }
   
   renderNewGameControls() {
     return (
@@ -39,16 +45,16 @@ export default class App extends Component {
         <Text>
           Width:
         </Text>
-        <TextInput keyboardType="numeric" value={this.state.width.toString()} style={{width: 100, height:40}} onChangeText={ (width) => this.setState({width}) } />
+        <TextInput ref="width" keyboardType="numeric" defaultValue={this.state.width.toString()} style={{width: 100, height:40}} onChangeText={ this.handleChangeWidth } />
 
         <Text>
           Height:
         </Text>
-        <TextInput keyboardType="numeric" value={this.state.height.toString()} style={{width: 100, height:40}} onChangeText={ (height) => this.setState({height}) } />
+        <TextInput keyboardType="numeric" defaultValue={this.state.height.toString()} style={{width: 100, height:40}} onChangeText={ (height) => this.setState({height}) } />
 
 
         <Text>Num Mines:</Text>
-        <TextInput keyboardType="numeric" value={this.state.numMines.toString()} style={{width: 100, height:40}} onChangeText={ (numMines) => this.setState({numMines}) } />
+        <TextInput keyboardType="numeric" defaultValue={this.state.numMines.toString()} style={{width: 100, height:40}} onChangeText={ (numMines) => this.setState({numMines}) } />
 
         <TouchableHighlight onPress={this.startNewGame}>
         	<Text>Start</Text>
