@@ -14,6 +14,7 @@ export default class App extends Component {
    constructor(props) {
     super(props);
     this.handleChangeWidth = this.handleChangeWidth.bind(this);
+    this.startNewGame=this.startNewGame(this);
     this.state = {
 			height: 10,
 			width: 10,
@@ -24,7 +25,7 @@ export default class App extends Component {
 
   startNewGame() {
     window.alert('Example Pressed');  
-      
+    //this.setState({ gameStarted: true })  
     //window.alert(this.state.width);
     //this.key.width.toString()
 
