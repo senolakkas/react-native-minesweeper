@@ -13,6 +13,7 @@ import styles from './styles'
 export default class App extends Component {
    constructor(props) {
     super(props);
+    this.handleChangeWidth = this.handleChangeWidth.bind(this);
     this.state = {
 			height: 10,
 			width: 10,
@@ -22,8 +23,9 @@ export default class App extends Component {
 	}
 
   startNewGame() {
-    window.alert('Example Pressed');    
-    //window.alert(this.ref.width.defaultValue);
+    window.alert('Example Pressed');  
+      
+    //window.alert(this.state.width);
     //this.key.width.toString()
 
     /*Actions.startGame(
@@ -34,9 +36,22 @@ export default class App extends Component {
     */
   }
 
+  
+
   handleChangeWidth(text) {
-    window.alert(text); 
-    // this.setState({ width: text }) ?? 
+    window.alert("text");
+    //console.log(event);
+    //window.alert(event.nativeEvent.ref.vidth.defaultValue);
+
+    window.alert(text);
+    //this.state.width=18; 
+    this.setState({ width: text }) 
+    //window.alert(this.state.width.toString());
+
+    
+
+    
+    //that.setState({ width: text });
   }
   
   renderNewGameControls() {
