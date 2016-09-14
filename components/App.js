@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Board from './Board'
+import Board from './Board';
 import {
   StyleSheet,
   Text,
@@ -7,7 +7,7 @@ import {
   TouchableHighlight,
   View
 } from 'react-native';
-import styles from './styles'
+import styles from './styles';
 
 
 export default class App extends Component {
@@ -20,12 +20,13 @@ export default class App extends Component {
 			width: 10,
 			numMines: 5,
 			gameStarted: false
-		}
+		};
 	}
 
   startNewGame() {
+
     window.alert('Example Pressed');
-    this.setState({ gameStarted: true })
+    this.setState({ gameStarted: true });
     //window.alert(this.state.width);
     //this.key.width.toString()
 
@@ -46,7 +47,8 @@ export default class App extends Component {
 
     window.alert(text);
     //this.state.width=18;
-    this.setState({ width: text })
+    this.setState({ width: text });
+
     //window.alert(this.state.width.toString());
 
 
@@ -57,7 +59,7 @@ export default class App extends Component {
 
   renderNewGameControls() {
     return (
-      <View style={styles.container}>
+      <View style={styles.container}>        
         <Text>
           Width:
         </Text>
