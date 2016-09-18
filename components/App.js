@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+import { Provider } from 'react-redux';
 import Board from './Board';
 import {
   StyleSheet,
@@ -59,10 +61,8 @@ export default class App extends Component {
 
   renderNewGameControls() {
     return (
-      <View style={styles.container}>        
-        <Text>
-          Width:
-        </Text>
+      <View style={styles.container}>
+        <Text>Width:</Text>
         <TextInput ref="width" keyboardType="numeric" defaultValue={this.state.width.toString()} style={{width: 100, height:40}} onChangeText={ this.handleChangeWidth } />
 
         <Text>
