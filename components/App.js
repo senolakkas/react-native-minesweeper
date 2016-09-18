@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { Provider } from 'react-redux';
 import Board from './Board';
 import {
   StyleSheet,
