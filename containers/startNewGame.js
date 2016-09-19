@@ -6,7 +6,7 @@ import {
   View
 } from 'react-native';
 import {bindActionCreators} from 'redux';
-import StartNewGameC from '../components/startNewGame';
+import NewGame from '../components/newGame';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
 
@@ -25,7 +25,8 @@ class StartNewGame extends Component {
   render() {
     const { state, actions } = this.props;
     return (
-      <StartNewGameC />
+      <NewGame counter={state.count}
+        {...actions} />
     );
   }
 }
