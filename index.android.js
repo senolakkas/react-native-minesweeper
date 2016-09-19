@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import App from './containers/app';
+//import App from './components/App';
 import {
   AppRegistry
 } from 'react-native';
