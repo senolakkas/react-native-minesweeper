@@ -26,7 +26,7 @@ class StartNewGame extends Component {
     const { state, actions } = this.props;
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>({state.height})</Text>        
+        <Text>({state.count2})</Text>        
         <NewGame counter={state.count}
         {...actions} />
       </View>      
