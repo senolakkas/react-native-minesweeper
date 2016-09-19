@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 // @connect(state => ({
 //   state: state.counter
 // }))
-class CounterApp extends Component {
+class counterApp extends Component {
   constructor(props) {
     super(props);
   }
@@ -29,4 +29,4 @@ export default connect(state => ({
   (dispatch) => ({
     actions: bindActionCreators(counterActions, dispatch)
   })
-)(CounterApp);
+)(counterApp);
