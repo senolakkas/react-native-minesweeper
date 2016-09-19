@@ -6,7 +6,7 @@ import {
   View
 } from 'react-native';
 import {bindActionCreators} from 'redux';
-//import Counter from '../components/counter';
+import Counter from '../components/counter';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
 
@@ -14,20 +14,16 @@ import { connect } from 'react-redux';
 //   state: state.counter
 // }))
 class CounterApp extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
+    const { state, actions } = this.props;
     return (
-      <View>
-        <Text>
-          Welcome to Component/Board.js
-        </Text>
-        <Text>
-          To get started, edit index.ios.js
-        </Text>
-        <Text>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <Counter
+        counter={state.count}
+        {...actions} />
     );
   }
 }
