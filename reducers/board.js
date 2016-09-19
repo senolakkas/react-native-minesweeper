@@ -13,12 +13,12 @@ export default function board(state = initialState, action = {}) {
         case types.INCREMENT:
             return {
         ...state,
-                count: state.count + 1
+                count: state.width + 1
             };
         case types.DECREMENT:
             return {
         ...state,
-                count: state.count - 1
+                count: state.width - 1
             };
         default:
             return state;
