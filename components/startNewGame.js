@@ -10,7 +10,7 @@ import {
 import styles from './../styles';
 
 
-export default class App extends Component {
+export default class StartNewGame extends Component {
    constructor(props) {
     super(props);
     this.handleChangeWidth = this.handleChangeWidth.bind(this);

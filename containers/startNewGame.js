@@ -6,10 +6,13 @@ import {
   View
 } from 'react-native';
 import {bindActionCreators} from 'redux';
-import Counter from '../components/counter';
+import StartNewGameC from '../components/startNewGame';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
-import styles from './../styles';
+
+
+
+
 
 // @connect(state => ({
 //   state: state.counter
@@ -22,18 +25,7 @@ class StartNewGame extends Component {
   render() {
     const { state, actions } = this.props;
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to container/StartNewGame.js
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <StartNewGameC />
     );
   }
 }
