@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 
 import * as reducers from '../reducers';
-// import CounterApp from './counterApp';
+import CounterApp from './counterApp';
 import StartNewGame from './startNewGame';
 
 
