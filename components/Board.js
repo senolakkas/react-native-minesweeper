@@ -13,7 +13,7 @@ export default class Board extends Component {
     return(
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to Component/Board.js
+          Welcome to Component/Board.js                 
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js

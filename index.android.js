@@ -5,8 +5,8 @@
  */
 
 import React, { Component } from 'react';
-//import App from './containers/app';
-import App from './components/startNewGame';
+import App from './containers/app';
+//import App from './components/startNewGame';
 import {
   AppRegistry
 } from 'react-native';

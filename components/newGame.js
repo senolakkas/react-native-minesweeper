@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, TouchableOpacity} from 'react-native';
-
+import {
+  StyleSheet, 
+  View, 
+  Text,
+  TextInput, 
+  TouchableOpacity,
+  TouchableHighlight,  
+} from 'react-native';
+import Board from './Board';
 const styles = StyleSheet.create({
   button: {
     width: 100,
@@ -18,19 +25,19 @@ export default class NewGame extends Component {
     super(props);
   }
 
+
+
+  renderBoard() {
+    return (
+      <Board />
+    );
+  }
+
   render() {
     const { counter, increment, decrement } = this.props;
 
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>{counter}</Text>
-        <TouchableOpacity onPress={increment} style={styles.button}>
-          <Text>up</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={decrement} style={styles.button}>
-          <Text>down</Text>
-        </TouchableOpacity>
-      </View>
+      this.renderBoard()
     );
   }
 }
