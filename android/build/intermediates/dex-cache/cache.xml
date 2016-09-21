@@ -2,48 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-fbfc1862964542fb060aba7844cf01df3512d083.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-465d4405c53aa35637304e88c5f1a9dd97aa3a3b.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-b819f0b83dcf543be1697a6de381f3b336a75c64.jar" />
-    </item>
-    <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-53026b238e52873702288091ab8b5023f0e601eb.jar" />
-    </item>
-    <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-297b91008d40e239ae8a99c5b3941a7134df458d.jar" />
-    </item>
-    <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-d538261976605283e365b61b3f1156004c06d2b8.jar" />
-    </item>
-    <item
         jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -51,67 +9,11 @@
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-07d8aa7a9b7f8a6daab0dab167abb4989ba4b921.jar" />
     </item>
     <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-880e359b13e4aa0b1f33aac057bfe7ac052c7399.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-30f9d300817fe20d46fd2085c8d6b16cbf4b645b.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-b779c5fc895713f4b48bbaeab0577048430ee980.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-253767cda576474c6eda2ced94dc66b4ec29cf47.jar" />
-    </item>
-    <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.33.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="86a10a3af45f2c46b8dcfcb41220821d10794699">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-35327426620739600e14bfcedd4d2e00cc07021c.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-b0c64b3f88199c198ebd859d48f58b5d5f84bf97.jar" />
-    </item>
-    <item
-        jar="/home/senol/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-62643a4c866c2c7b242cf12b70d6f727174fe746.jar" />
-    </item>
-    <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-481c383502266dd8153451300250d3b52ea1e765.jar" />
-    </item>
-    <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-992e83fc9c2de6a2e0158126825bd300581e1be3.jar" />
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-a7620fec7297a7d124c6fc0a6da9ec3aab96363b.jar" />
     </item>
     <item
         jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
@@ -121,6 +23,20 @@
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-92bc60b7e048db52f4a8b47cfe0ab3af25f043b1.jar" />
     </item>
     <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-0f922d6b563ae3c0cc4746e580c7edad580292cd.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-297b91008d40e239ae8a99c5b3941a7134df458d.jar" />
+    </item>
+    <item
         jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -128,11 +44,11 @@
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-3e13ed8d5891328e6c3ffcc1ccbc96557c66f82e.jar" />
     </item>
     <item
-        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jar="/home/senol/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-0f922d6b563ae3c0cc4746e580c7edad580292cd.jar" />
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-62643a4c866c2c7b242cf12b70d6f727174fe746.jar" />
     </item>
     <item
         jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
@@ -142,11 +58,116 @@
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-420df7f7fbb4d174ba438f64e3373bea34d77288.jar" />
     </item>
     <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.3.1/c596b3b33b5a92107bb70544bb5ee35f597bc6d8/stetho-okhttp3-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp3-1.3.1-4b0fce1dba50d654466b39ae23fc871ba9998529.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-b779c5fc895713f4b48bbaeab0577048430ee980.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.33.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="849357db0dcadfb604ea1ec3a185b276d98e997c">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-cb9f076fe1a00927259792b6cb08d5f29ae62366.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-253767cda576474c6eda2ced94dc66b4ec29cf47.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-481c383502266dd8153451300250d3b52ea1e765.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-30f9d300817fe20d46fd2085c8d6b16cbf4b645b.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-d538261976605283e365b61b3f1156004c06d2b8.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/stetho-1.3.1-a00b9d533c4a10ff842eeb95a81e535bf8e5a443.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-880e359b13e4aa0b1f33aac057bfe7ac052c7399.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.33.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="86a10a3af45f2c46b8dcfcb41220821d10794699">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-35327426620739600e14bfcedd4d2e00cc07021c.jar" />
+    </item>
+    <item
         jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-97a3bd006f57716ce7dab7e73a49d9d6192f7ca5.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-b0c64b3f88199c198ebd859d48f58b5d5f84bf97.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-992e83fc9c2de6a2e0158126825bd300581e1be3.jar" />
+    </item>
+    <item
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-fbfc1862964542fb060aba7844cf01df3512d083.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-b819f0b83dcf543be1697a6de381f3b336a75c64.jar" />
+    </item>
+    <item
+        jar="/home/senol/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-465d4405c53aa35637304e88c5f1a9dd97aa3a3b.jar" />
     </item>
     <item
         jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
@@ -156,11 +177,11 @@
         <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-2653c088cbfc8a675db59c9bc0c1b9290b8ac73e.jar" />
     </item>
     <item
-        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.33.0/jars/libs/infer-annotations-1.5.jar"
+        jar="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="849357db0dcadfb604ea1ec3a185b276d98e997c">
-        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-cb9f076fe1a00927259792b6cb08d5f29ae62366.jar" />
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/senol/Projects/reactnativeMinesweeper/android/app/build/intermediates/pre-dexed/debug/classes-53026b238e52873702288091ab8b5023f0e601eb.jar" />
     </item>
 
 </items>
