@@ -32,7 +32,7 @@ class StartNewGame extends Component {
     console.log("containers/StartNewGame 32");
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>               
-        <NewGame gameStarted={state.gameStarted}
+        <NewGame state={state}
         {...actions} />
       </View>      
     );

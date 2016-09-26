@@ -28,9 +28,8 @@ export default class NewGame extends Component {
 
 
   renderBoard() {
-    return (   
-      
-      <Board />
+    return ( 
+      <Board gameStarted={this.props} />
     );
   }
 
@@ -40,11 +39,14 @@ export default class NewGame extends Component {
     console.log("containers/NewGame 39");
     console.log(this.props);
     console.log("containers/NewGame 41");
-    window.alert(gameStarted);
-
+    //window.alert(gameStarted);
+    /*
     if (!gameStarted) {
-      return this.renderBoard();
-    }
+      return this.renderBoard(this.props);
+    }*/
+    return ( 
+      <Board gameStarted={this.props} />
+    );
     
   }
 }
