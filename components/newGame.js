@@ -28,16 +28,23 @@ export default class NewGame extends Component {
 
 
   renderBoard() {
-    return (
+    return (   
+      
       <Board />
     );
   }
 
   render() {
-    const { counter, increment, decrement } = this.props;
+    const { gameStarted, increment, decrement } = this.props;
 
-    return (
-      this.renderBoard()
-    );
+    console.log("containers/NewGame 39");
+    console.log(this.props);
+    console.log("containers/NewGame 41");
+    window.alert(gameStarted);
+
+    if (!gameStarted) {
+      return this.renderBoard();
+    }
+    
   }
 }

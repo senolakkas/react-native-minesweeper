@@ -23,10 +23,16 @@ class StartNewGame extends Component {
   }
 
   render() {
+    
     const { state, actions } = this.props;
+
+
+    console.log("containers/StartNewGame 30");
+    console.log(this.props);
+    console.log("containers/StartNewGame 32");
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>               
-        <NewGame counter={state.count}
+        <NewGame gameStarted={state.gameStarted}
         {...actions} />
       </View>      
     );
