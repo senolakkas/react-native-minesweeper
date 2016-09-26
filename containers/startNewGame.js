@@ -23,25 +23,30 @@ class StartNewGame extends Component {
   }
 
   render() {
-    
+
     const { state, actions } = this.props;
+
+
 
 
     console.log("containers/StartNewGame 30");
     console.log(this.props);
     console.log("containers/StartNewGame 32");
-    return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>               
-        <NewGame state={state}
-        {...actions} />
-      </View>      
-    );
+    if (!state.gameStarted) {
+      return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+          <NewGame state={state}
+            {...actions} />
+        </View>
+      );
+    }
+
   }
 }
 
 export default connect(state => ({
-    state: state.counter
-  }),
+  state: state.counter
+}),
   (dispatch) => ({
     actions: bindActionCreators(counterActions, dispatch)
   })
