@@ -83,7 +83,10 @@ export default class NewGame extends Component {
             (text) => this.setState({ numMines: text })
           }
           />
-        <TouchableHighlight >
+        <TouchableHighlight
+          style={styles.button}
+          onPress={decrement}
+          >
           <Text>Start</Text>
         </TouchableHighlight>
       </View>
