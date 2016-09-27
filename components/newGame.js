@@ -35,16 +35,28 @@ export default class NewGame extends Component {
     return (
       <View style={styles.container}>
         <Text>Width: </Text>
-        <TextInput ref="width" keyboardType="numeric" style={{ width: 100, height: 40 }}/>
+        <TextInput 
+        ref="height" 
+        keyboardType="numeric" 
+        defaultValue={height.toString()} 
+        style={{ width: 100, height: 40 }}
+        />
 
         <Text>
-          Height:
+          Width:
         </Text>
-        <TextInput keyboardType="numeric"  style={{ width: 100, height: 40 }} />
+        <TextInput 
+        keyboardType="numeric" 
+        defaultValue={width.toString()} 
+        style={{ width: 100, height: 40 }} 
+        />
 
 
         <Text>Num Mines: </Text>
-        <TextInput keyboardType="numeric" style={{ width: 100, height: 40 }} />
+        <TextInput 
+        keyboardType="numeric" 
+        defaultValue={numMines.toString()} 
+        style={{ width: 100, height: 40 }} />
 
         <TouchableHighlight >
           <Text>Start</Text>

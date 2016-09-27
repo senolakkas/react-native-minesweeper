@@ -11,17 +11,17 @@ import styles from './../styles';
 
 
 export default class StartNewGame extends Component {
-   constructor(props) {
+  constructor(props) {
     super(props);
     this.handleChangeWidth = this.handleChangeWidth.bind(this);
     //this.startNewGame = this.startNewGame(this);
     this.state = {
-			height: 10,
-			width: 10,
-			numMines: 5,
-			gameStarted: false
-		};
-	}
+      height: 10,
+      width: 10,
+      numMines: 5,
+      gameStarted: false
+    };
+  }
 
   startNewGame() {
 
@@ -60,20 +60,25 @@ export default class StartNewGame extends Component {
   renderNewGameControls() {
     return (
       <View style={styles.container}>
-        <Text>Width:</Text>
-        <TextInput ref="width" keyboardType="numeric" defaultValue={this.state.width.toString()} style={{width: 100, height:40}} onChangeText={ this.handleChangeWidth } />
+        <Text>Width: </Text>
+        <TextInput
+          ref="width"
+          keyboardType="numeric"
+          defaultValue={this.state.width.toString() }
+          style={{ width: 100, height: 40 }}
+          onChangeText={ this.handleChangeWidth } />
 
         <Text>
           Height:
         </Text>
-        <TextInput keyboardType="numeric" defaultValue={this.state.height.toString()} style={{width: 100, height:40}} onChangeText={ (height) => this.setState({height}) } />
+        <TextInput keyboardType="numeric" defaultValue={this.state.height.toString() } style={{ width: 100, height: 40 }} onChangeText={ (height) => this.setState({ height }) } />
 
 
-        <Text>Num Mines:</Text>
-        <TextInput keyboardType="numeric" defaultValue={this.state.numMines.toString()} style={{width: 100, height:40}} onChangeText={ (numMines) => this.setState({numMines}) } />
+        <Text>Num Mines: </Text>
+        <TextInput keyboardType="numeric" defaultValue={this.state.numMines.toString() } style={{ width: 100, height: 40 }} onChangeText={ (numMines) => this.setState({ numMines }) } />
 
-        <TouchableHighlight onPress={this.startNewGame.bind(this)}>
-        	<Text>Start</Text>
+        <TouchableHighlight onPress={this.startNewGame.bind(this) }>
+          <Text>Start</Text>
         </TouchableHighlight>
       </View>
     );
