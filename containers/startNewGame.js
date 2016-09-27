@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import {bindActionCreators} from 'redux';
 import NewGame from '../components/newGame';
-import Counter from '../components/counter';
+import Board from '../components/Board';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
 
@@ -33,7 +33,7 @@ class StartNewGame extends Component {
     console.log("containers/StartNewGame 30");
     console.log(this.props);
     console.log("containers/StartNewGame 32");
-    if (!state.gameStarted) {
+    if (state.gameStarted) {
       return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <NewGame state={state}
@@ -42,7 +42,7 @@ class StartNewGame extends Component {
       );
     } else {
       return (
-        <Counter
+        <Board
           counter={state.count}
           {...actions} />
       );
