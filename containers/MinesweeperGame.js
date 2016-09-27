@@ -28,8 +28,6 @@ class MinesweeperGame extends Component {
     const { state, actions } = this.props;
 
 
-
-
     //console.log("containers/StartNewGame 30");
     //console.log(this.props);
     //console.log("containers/StartNewGame 32");
