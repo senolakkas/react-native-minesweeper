@@ -10,12 +10,9 @@ import styles from './../styles';
 export default class Board extends Component {
   
   render() {
-    const { state, increment, decrement } = this.props;
-    
-
-
+    const { state, increment, decrement } = this.props;  
     console.log("Board 14");
-    console.log(state);
+    console.log(this.props);
     console.log("Board 16");
     return(
       <View style={styles.container}>

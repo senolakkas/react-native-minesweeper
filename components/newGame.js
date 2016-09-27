@@ -36,9 +36,9 @@ export default class NewGame extends Component {
   render() {
     const { gameStarted, increment, decrement } = this.props;
 
-    console.log("containers/NewGame 39");
-    console.log(this.props);
-    console.log("containers/NewGame 41");
+    //console.log("containers/NewGame 39");
+    //console.log(this.props);
+    //console.log("containers/NewGame 41");
     //window.alert(gameStarted);
     /*
     if (!gameStarted) {
