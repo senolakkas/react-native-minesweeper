@@ -11,3 +11,9 @@ export function decrement() {
     type: types.DECREMENT
   };
 }
+
+export function startGame() {
+  return {
+    type: types.START_GAME
+  };
+}
