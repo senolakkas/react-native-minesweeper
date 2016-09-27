@@ -20,6 +20,11 @@ export default function counter(state = initialState, action = {}) {
         ...state,
         count: state.count - 1
       };
+    case types.START_GAME:
+      return {
+        ...state,
+        gameStarted: true
+      };  
     default:
       return state;
   }

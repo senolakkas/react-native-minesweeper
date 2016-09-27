@@ -45,7 +45,7 @@ export default class NewGame extends Component {
   }
 
   render() {
-    const { height, width, numMines, gameStarted, increment, decrement } = this.props;
+    const { height, width, numMines, gameStarted, increment, decrement, startGame } = this.props;
 
     console.log("containers/NewGame 31");
     console.log(this.props);
@@ -85,7 +85,7 @@ export default class NewGame extends Component {
           />
         <TouchableHighlight
           style={styles.button}
-          onPress={decrement}
+          onPress={startGame}
           >
           <Text>Start</Text>
         </TouchableHighlight>
