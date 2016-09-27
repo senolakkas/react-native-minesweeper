@@ -18,7 +18,7 @@ import { connect } from 'react-redux';
 // @connect(state => ({
 //   state: state.counter
 // }))
-class StartNewGame extends Component {
+class MinesweeperGame extends Component {
   constructor(props) {
     super(props);
   }
@@ -57,4 +57,4 @@ export default connect(state => ({
   (dispatch) => ({
     actions: bindActionCreators(counterActions, dispatch)
   })
-)(StartNewGame);
+)(MinesweeperGame);

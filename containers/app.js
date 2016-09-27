@@ -8,7 +8,7 @@ import createLogger from 'redux-logger';
 
 import * as reducers from '../reducers';
 //import CounterApp from './counterApp';
-import StartNewGame from './startNewGame';
+import MinesweeperGame from './MinesweeperGame';
 
 
 const logger = createLogger();
@@ -20,7 +20,7 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <StartNewGame />
+        <MinesweeperGame />
       </Provider>
     );
   }
