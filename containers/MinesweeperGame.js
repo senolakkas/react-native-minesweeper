@@ -36,7 +36,11 @@ class MinesweeperGame extends Component {
     if (!state.gameStarted) {
       return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          <NewGame state={state}
+          <NewGame
+            height={state.height}
+            width={state.width} 
+            numMines={state.numMines}
+            gameStarted={state.gameStarted}
             {...actions} />
         </View>
       );

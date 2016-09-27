@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {
-  StyleSheet, 
-  View, 
+  StyleSheet,
+  View,
   Text,
-  TextInput, 
+  TextInput,
   TouchableOpacity,
-  TouchableHighlight  
+  TouchableHighlight
 } from 'react-native';
 import Board from './Board';
 const styles = StyleSheet.create({
@@ -25,41 +25,31 @@ export default class NewGame extends Component {
     super(props);
   }
 
-
-
-  renderBoard() {
-    return ( 
-      <Board gameStarted={this.props} />
-    );
-  }
-
   render() {
-    const { gameStarted, increment, decrement } = this.props;
+    const { height,width,numMines,gameStarted, increment, decrement } = this.props;
 
-    //console.log("containers/NewGame 39");
-    //console.log(this.props);
-    //console.log("containers/NewGame 41");
-    //window.alert(gameStarted);
+    console.log("containers/NewGame 31");
+    console.log(this.props);
+    console.log("containers/NewGame 33");  
 
-    return ( 
+    return (
       <View style={styles.container}>
-        <Text>Width:</Text>
-        <TextInput ref="width" keyboardType="numeric" style={{width: 100, height:40}}/>
+        <Text>Width: </Text>
+        <TextInput ref="width" keyboardType="numeric" style={{ width: 100, height: 40 }}/>
 
         <Text>
           Height:
         </Text>
-        <TextInput keyboardType="numeric"  style={{width: 100, height:40}} />
+        <TextInput keyboardType="numeric"  style={{ width: 100, height: 40 }} />
 
 
-        <Text>Num Mines:</Text>
-        <TextInput keyboardType="numeric" style={{width: 100, height:40}} />
+        <Text>Num Mines: </Text>
+        <TextInput keyboardType="numeric" style={{ width: 100, height: 40 }} />
 
         <TouchableHighlight >
-        	<Text>Start</Text>
+          <Text>Start</Text>
         </TouchableHighlight>
       </View>
     );
-    
   }
 }
