@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 import {bindActionCreators} from 'redux';
 import NewGame from '../components/newGame';
+import Counter from '../components/counter';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
 
@@ -38,6 +39,12 @@ class StartNewGame extends Component {
           <NewGame state={state}
             {...actions} />
         </View>
+      );
+    } else {
+      return (
+        <Counter
+          counter={state.count}
+          {...actions} />
       );
     }
 
