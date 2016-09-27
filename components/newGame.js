@@ -5,7 +5,7 @@ import {
   Text,
   TextInput, 
   TouchableOpacity,
-  TouchableHighlight,  
+  TouchableHighlight  
 } from 'react-native';
 import Board from './Board';
 const styles = StyleSheet.create({
@@ -40,12 +40,25 @@ export default class NewGame extends Component {
     //console.log(this.props);
     //console.log("containers/NewGame 41");
     //window.alert(gameStarted);
-    /*
-    if (!gameStarted) {
-      return this.renderBoard(this.props);
-    }*/
+
     return ( 
-      <Board gameStarted={this.props} />
+      <View style={styles.container}>
+        <Text>Width:</Text>
+        <TextInput ref="width" keyboardType="numeric" style={{width: 100, height:40}}/>
+
+        <Text>
+          Height:
+        </Text>
+        <TextInput keyboardType="numeric"  style={{width: 100, height:40}} />
+
+
+        <Text>Num Mines:</Text>
+        <TextInput keyboardType="numeric" style={{width: 100, height:40}} />
+
+        <TouchableHighlight >
+        	<Text>Start</Text>
+        </TouchableHighlight>
+      </View>
     );
     
   }

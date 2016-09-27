@@ -33,7 +33,7 @@ class MinesweeperGame extends Component {
     //console.log("containers/StartNewGame 30");
     //console.log(this.props);
     //console.log("containers/StartNewGame 32");
-    if (state.gameStarted) {
+    if (!state.gameStarted) {
       return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <NewGame state={state}
@@ -43,7 +43,7 @@ class MinesweeperGame extends Component {
     } else {
       return (
         <Board
-          counter={state}
+          state={state}
           {...actions} />
       );
     }
