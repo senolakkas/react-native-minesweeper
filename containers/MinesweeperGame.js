@@ -45,6 +45,7 @@ class MinesweeperGame extends Component {
       );
     } else {
       let statusMessage = (<Text>Have fun</Text>);
+      
       return (
         <View style={styles.container}>
         <Scoreboard>
