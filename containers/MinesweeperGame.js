@@ -8,6 +8,7 @@ import {
 import {bindActionCreators} from 'redux';
 import NewGame from '../components/newGame';
 import Board from '../components/Board';
+import Scoreboard from '../components/Scoreboard';
 import * as counterActions from '../actions/counterActions';
 import { connect } from 'react-redux';
 import styles from './../styles';
@@ -46,16 +47,9 @@ class MinesweeperGame extends Component {
       let statusMessage = (<Text>Have fun</Text>);
       return (
         <View style={styles.container}>
-        <Text style={styles.welcome}>          
-          Welcome to Component/Board.js                 
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <Scoreboard>
+          {statusMessage}
+        </Scoreboard>
       </View>
       );
     }
